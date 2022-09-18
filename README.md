@@ -25,8 +25,8 @@ InnovaMind es una aplición donde los choferes profesionales pueden unirse para 
 ### Dominik Mendoza
 [![Dominik Mendoza]()](https://www.linkedin.com/in/dominik-mendoza-ramos-91496a224/)
 
-### Fernando Schilder
-[![Piero Liberato]()](https://www.linkedin.com/in/fernando-schilder-hervias-81065b213/)
+### Piero Liberato
+[![Piero Liberato]()]()
 
 ### Lennin Huaman
 [![Lennin Huaman]()](https://www.linkedin.com/in/lennin-huaman-b05210242/)
