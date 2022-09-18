@@ -8,7 +8,7 @@ InnovaMind está conformada por cinco jóvenes, estudiantes de la Universidad Pe
 
 ## About ZenDriver
 
-![ProDriver+](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/logozendriver.png)
+![ZenDriver](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/logozendriver.png)
 
 
 
@@ -28,7 +28,7 @@ InnovaMind es una aplición donde los choferes profesionales pueden unirse para 
 [![Dominik Mendoza](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/DominikMendoza.png)](https://www.linkedin.com/in/dominik-mendoza-ramos-91496a224/)
 
 ### Piero Liberato
-[![Piero Liberato](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/PieroLiberato.png)]()
+[![Piero Liberato](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/PieroLiberato.png)](https://www.linkedin.com/in/piero-anthony-liberato-susanibar-4b6786118/)
 
 ### Lennin Huaman
 [![Lennin Huaman](https://github.com/upc-pre-202202-si730-sw52-InnovaMind/innova-mind-project-landing-page/blob/master/public/assets/images/LenninHuaman.png)](https://www.linkedin.com/in/lennin-huaman-b05210242/)
