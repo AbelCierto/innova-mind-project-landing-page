@@ -111,6 +111,33 @@ nav {
     top: 0;
     z-index: 11;
 }
+
+/*Header section*/
+.btn-nav {
+    background: var(--color-bg);
+    color: var(--color-white);
+    border-radius: 8px;
+}
+.btn-plans {
+    background: var(--color-button);
+    color: var(--color-white);
+    border-radius: 8px;
+}
+.btn-primary {
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
 /* Window scroll */
 .window-scroll {
     background: var(--color-primary);
@@ -473,5 +500,419 @@ nav button {
         position: absolute;
         top: 0;
         width: 100%;
+    }
+}
+
+/* Plans section*/
+.plans_introduction {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.plans {
+    margin-top: 10rem;
+}
+.center_top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.plan_card {
+    background: transparent;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan_card_center {
+    width: 400px;
+}
+
+.plan_card_side {
+    width: 500px;
+}
+
+.plan_card_top_side {
+
+    width: 80%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background: var(--color-bg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: -20%;
+}
+
+.plan_card_top_center {
+
+    width: 110%;
+    height: 110%;
+
+    padding-top: 35%;
+    padding-bottom: 35%;
+    position: relative;
+    background: #007BBB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: -20%;
+}
+
+.plan_card_bottom {
+
+    position: relative;
+    margin:  0 5% 0 5%;
+    display: flex;
+
+    flex-direction: row;
+    align-items: flex-end;
+    z-index: 1;
+    justify-content: center;
+}
+
+.plan_card_description{
+
+    padding: 20px;
+    width: 333px;
+    margin-bottom: 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plan_card_top h3 {
+    font-size: 2.5rem;
+}
+.plans_section {
+    background: #efefef;
+    margin-top: 100px;
+    color: var(--color-black);
+
+    padding-top: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.plans_section h2 {
+    padding: 15px 15px 15px 5vw;
+    margin: 10px 10px 10px 10px;
+}
+
+.plans_subsection{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+}
+
+.plan_card_top_text_side {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.plan_card_top_text_side h3 {
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+.plan_card_top_text_side p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.plan_card_top_text_center {
+
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.plan_card_top_text_center h3 {
+    font-size: 7.0rem;
+}
+
+.plan_card_top_text_center p {
+    font-size: 1.3rem;
+}
+
+.plan_card_description h6 {
+    text-align: center;
+    font-size: 1.7rem;
+    object-fit: cover;
+}
+
+.plan_card_description ul li{
+
+    list-style-type: circle;
+    width: 100%;
+    text-align: left;
+}
+.plan_card_description ul {
+    padding: 5% 10% 5% 10%;
+}
+
+
+.plan_card_purchase_btn {
+    margin-top: 10%;
+    background: var(--color-button);
+    color: var(--color-white);
+    border-radius: 8px;
+}
+
+.plan_card_purchase_btn:hover {
+    background: #007BBB;
+}
+
+.plan_card_top_text h3{
+    font-size: 4.5rem;
+}
+
+/*Footer section*/
+footer{
+    color: white;
+    background-color: #007BBB;
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px 10px 20px 80px;
+}
+
+.information{
+
+}
+.information-list{
+    display: flex;
+}
+.information-list__social{
+    align-items: center;
+    margin: 15px;
+    padding: 0;
+}
+
+.navigation-menu__link{}
+.navigation{
+}
+.navigation-menu{
+
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.navigation-menu__link{
+    float: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contact{
+
+}
+.contact-list{
+    padding: 10px;
+}
+.contact-list__option{
+    margin: 0%;
+    padding: 0%;
+}
+.contact-form{}
+
+@media screen and (max-width: 750px) {
+    footer {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/* MEDIA QUERIES (TABLETS) */
+@media screen and (max-width: 1350px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    h1 {
+        font-size: 2.2rem;
+
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    /*  NAVBAR  */
+    nav button {
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        color: var(--color-white);
+        cursor:pointer;
+    }
+
+    nav button#close-menu-btn {
+        display: none;
+    }
+    .nav__menu{
+        position: fixed;
+        top: 5rem;
+        right: 5%;
+        height: fit-content;
+        width: 18rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+    }
+    .nav__menu li {
+        width: 100%;
+        height: 5.8rem;
+        animation: animateNavItems 400ms linear forwards;
+        transform-origin: top right;
+        opacity: 0;
+    }
+
+    .nav__menu li:nth-child(2) {
+        animation-delay: 200ms;
+    }
+    .nav__menu li:nth-child(3) {
+        animation-delay: 400ms;
+    }
+    .nav__menu li:nth-child(4) {
+        animation-delay: 600ms;
+    }
+    @keyframes animateNavItems {
+        0% {
+            transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+        }
+        100% {
+            transform: rotateZ(0deg) rotateX(0deg) scale(1);
+            opacity: 1;
+        }
+    }
+    .nav__menu li a {
+        background: var(--color-primary);
+        box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .nav__menu li a:hover {
+        background: var(--color-bg2);
+        color: var(--color-white)
+    }
+
+    /* Body */
+
+    body {
+        height: 52vh;
+        margin-bottom: 4rem;
+    }
+
+    .body__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding-bottom: 3rem;
+    }
+    .body__left{
+        margin-right: 0;
+    }
+
+
+    /* about */
+    .guides {
+        height: auto;
+    }
+    .guides__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .guides__right{
+        margin-right: 0;
+    }
+    /* about */
+    .about {
+        height: auto;
+    }
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+    .about__right {
+        margin-right: 0;
+    }
+
+
+    /* partner */
+    .partner {
+        height: auto;
+    }
+    .partner__container{
+        grid-template-columns: 1fr;
+    }
+    .partner__center{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .guides__right{
+        grid-template-columns: 1fr;
+        gap: 15rem;
+        padding: 12%;
+    }
+    .about__container {
+        grid-template-columns: 1fr;
+        margin-right: 0%;
+    }
+    .partner__center{
+        grid-template-columns: 1fr;
+        gap: 4%;
+        padding: 20%;
+        position: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .partner__center{
+        grid-template-columns: 1fr;
+        gap: 4%;
+        padding: 20%;
+        position: center;
+        text-align: center;
+        width: auto;
+        height: auto;
     }
 }
